@@ -1,6 +1,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  // Relative Asset-Pfade, damit der Build auch unter einem Unterpfad läuft
+  base: './',
   server: {
     port: 5173,
   },
